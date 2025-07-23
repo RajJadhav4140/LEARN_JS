@@ -10,19 +10,19 @@
 // functionName(argument)
 
 
-// function greet(){
-//     console.log("hello")
-// }
+function greet(){
+    console.log("hello")
+}
 
-// greet();
-// greet();
-// greet();
+greet();
+greet();
+greet();
 
-// function sayHello(name){
-//      console.log(name)
-// }
-// sayHello("raj");
-// sayHello("jadhav");
+function sayHello(name){
+     console.log(name)
+}
+sayHello("raj");
+sayHello("jadhav");
 
 
 function good(name) {
