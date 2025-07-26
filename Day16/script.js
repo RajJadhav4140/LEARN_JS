@@ -1,6 +1,6 @@
 // dom ( Document Object Model)
 
-// A
+// A  
 
 let result = document.getElementsByTagName("h1")
 
