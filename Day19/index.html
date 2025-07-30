@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Events</title>
+ </head>
+   <style>
+        body{
+           height: 100vh;
+           width: 100vw;
+           background-color: #000;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+
+        .container{
+            height: 300px;
+            width: 200px;
+            background-color:grey;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        #moving-shadow{
+            height: 150px;
+            width: 150px;
+            background-color: rgb(106, 196, 231);
+            border-radius: 50%;
+            filter: blur(40px);
+            position: absolute;
+            top: 0;
+            left: 0;
+
+        }
+
+   </style>
+ <body>
+    <div class="container">
+        <div id="moving-shadow"></div>
+    </div>
+    <script src="./script.js"></script>
+ </body>
+ </html>
