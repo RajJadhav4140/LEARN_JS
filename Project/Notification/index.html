@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification</title>
+    <style>
+       body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #000;
+        overflow: hidden;
+        gap: 30px;
+        position: relative;
+       }
+
+       #Notification-input{
+        height: 40px;
+        width: 450px;
+        background-color: #f5f5f5fb;
+        padding: 3px 20px;
+        font-size: 1.1em;
+        outline: none;
+        border-radius: 7px;
+        border: none;
+        border-bottom: 5px solid skyblue;
+       }
+
+       #btn{
+        height: 35px;
+        width: 190px;
+        cursor: pointer;
+        background-color: #0b8dc0;
+        font-size: 1em;
+       }
+
+       .Notification-body{
+        height: 40px;
+        width: 450px;
+        background-color: rgb(185, 223, 238);
+        border-radius: 15px;
+        position: absolute;
+        top: -40%;
+        left: 50%;
+        transform: translate(-50% , 0);
+        padding: 10px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        font-size: 1.1em;
+        box-shadow: 5px 3px 40px grey;
+        transition: all 0.7s ease-in-out;
+       }
+    </style>
+</head>
+<body>
+      <input placeholder="Notification text" id="Notification-input">
+      <button id="btn">Notify</button>
+
+      <div class="Notification-body">
+        
+        hello i am dummy Notification
+
+      </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
