@@ -23,7 +23,7 @@ console.log(str)
 
 let obj = JSON.parse(str)
 console.log(typeof (obj))
-console.log(obj) 
+console.log(obj)
 
 // 2] Local Storage
 // local storage provide by the braowser
@@ -37,8 +37,8 @@ localStorage.setItem("is_login", true);
 localStorage.setItem("last_login", new Date());
 
 let person1 = {
-    name:"Raj",
-    age:20
+    name: "Raj",
+    age: 20
 
 }
 
