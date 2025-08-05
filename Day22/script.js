@@ -23,7 +23,7 @@ console.log(str)
 
 let obj = JSON.parse(str)
 console.log(typeof (obj))
-console.log(obj)
+console.log(obj) 
 
 // 2] Local Storage
 // local storage provide by the braowser
